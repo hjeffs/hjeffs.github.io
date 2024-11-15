@@ -159,40 +159,31 @@ nav .right a span {
 /* Section 3: Projects */
 
 .projects-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
     padding: 0 50px;
-    margin: 50px 0;
     margin-bottom: 100px;
-    gap: 40px;
-}
-
-.projects-section .text {
-    flex: 5;
 }
 
 .projects-section h2 {
-    text-align: center;
     font-size: 35px;
-    margin-bottom: 30px;
 }
 
-.projects-section .links {
-    flex: 2;
-    padding: 0 10px;
+.project {
+    margin-bottom: 20px;
 }
 
-.projects-section .links .link{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    width: 200px;
-    padding: 10px 20px;
-    border: 1px solid var(--text-color);
-    border-radius: 5px;
-    margin: 10px;
-    gap: 10px;
+.project-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.project-title:hover {
+    text-decoration: underline;
+}
+.project-description {
+    color: #555;
 }
 
 /* Section 4: Interests */
@@ -367,7 +358,20 @@ nav .right a span {
         padding: 0 20px;
     }
 
-    /* Section 4: Contact */
+    .projects-section .links {
+        padding: 0 20px;
+    }
+
+    /* Section 4: Interests */
+    .interests-section {
+        padding: 0 20px;
+    }
+    
+    .interests-section .cells .cell span {
+        font-size: 16px;
+    }
+
+    /* Section 5: Contact */
 
     .contact-section {
         padding: 0 20px;
