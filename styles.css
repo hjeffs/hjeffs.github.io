@@ -173,17 +173,17 @@ nav .right a span {
 }
 
 .project-title {
-    font-size: 1.5em;
+    font-size: 24px;
     margin-bottom: 5px;
     text-decoration: none;
-    color: #007BFF;
+    color: var(--link-color);
 }
 
 .project-title:hover {
-    text-decoration: underline;
+    color: var(--text-color);
 }
 .project-description {
-    color: #555;
+    color: var(--text-color);
 }
 
 /* Section 4: Interests */
